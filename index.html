@@ -10,81 +10,100 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col"><img src="img\codoacodo.png" alt="Ícono de Codo a Codo"></div>
-            <div class="col">
-                <h1>Conf Bs As</h1>
+    <div class="row container-fluid bg-dark">
+        <div class="col"><img width="70%" src="img\codoacodo.png" alt="Ícono de Codo a Codo"></div>
+        <div class="col text-light">
+            <h4>Conf Bs As</h4>
+        </div>
+        <a class="col text-light text-center text-decoration-none">La conferencia</a>
+        <a class="col text-secondary text-center text-decoration-none">Los oradores</a>
+        <a class="col text-secondary text-center text-decoration-none">El lugar y fecha</a>
+        <a class="col text-secondary text-centera text-decoration-none">Se un orador</a>
+        <a class="col text-success text-center text-decoration-none">Comprar tickets</a>
+    </div>
+    <div class="col container-fluid"><img src="img\ba1.jpg" alt="Imagen de Bs As">
+        <h2 class="text-light">Conf Bs As</h2>
+        <p class="text-light">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el
+            conocimiento y experiencia de los expertos que están creando el futuro del Internet. Ven a conocer a
+            miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti.
+            ¡Te esperamos!</p>
+        <a href="#form" class="text-light">Quiero ser un orador</a>
+        <button class="btn btn-success">Comprar tickets</button>
+    </div>
+    <div class="row container-sm">
+        <h6>CONOCE A LOS</h6>
+        <h2>ORADORES</h2>
+        <div class="col card">
+            <img class="card-img-top" width="300px" src="img\steve.jpg" alt="Foto de Steves Jobs"><br>
+            <span class="badge bg-warning text-body">JavaScript</span> <span class="badge bg-primary">React</span>
+            <div class="card-body">
+                <h5 class="card-title">Steves Jobs</h5>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae maiores
+                    cupiditate
+                    voluptate,
+                    obcaecati inventore eos comm class="badge bg-primary"odi quia nulla repellendus fugiat dolores quod
+                    at
+                    laudantium nemo omnis
+                    expedita alias velit eveniet.</p>
             </div>
-            <div class="col">La conferencia</div>
-            <div class="col">Los oradores</div>
-            <div class="col">El lugar y fecha</div>
-            <div class="col">Se un orador</div>
-            <div class="col">Comprar tickets</div>
         </div>
-        <div><img src="img\ba1.jpg" alt="Imagen de Bs As">
-            <h2>Conf Bs As</h2>
-            <p>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y
-                experiencia de los expertos que están creando el futuro del Internet. Ven a conocer a miembros del
-                evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. ¡Te
-                esperamos!</p>
-            <div>Quiero ser un orador</div>
-            <div>comprar tickets</div>
+        <div class="col card">
+            <img class="card-img-top" width="300px" src="img\bill.jpg" alt="Foto de Bill Gates"><br>
+            <span class="badge bg-warning text-body">JavaScript</span> <span class="badge bg-primary">React</span>
+            <div class="card-body">
+                <h5 class="card-title">Bill Gates</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam corrupti, odit
+                    harum
+                    commodi ab nostrum
+                    incidunt voluptatum minima, est officiis totam fuga eaque, eius earum esse. Deserunt animi
+                    blanditiis
+                    inventore?</p>
+            </div>
         </div>
-        <div>
-            <h6>CONOCE A LOS</h6>
-            <h2>ORADORES</h2>
-            <p>JavaScript</p>
-            <p>React</p>
-            <h4>Steves Jobs</h4>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae maiores cupiditate voluptate,
-                obcaecati inventore eos commodi quia nulla repellendus fugiat dolores quod at laudantium nemo omnis
-                expedita alias velit eveniet.</p>
-            <p>JavaScript</p>
-            <p>React</p>
-            <h4>Bill Gates</h4>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam corrupti, odit harum commodi ab nostrum
-                incidunt voluptatum minima, est officiis totam fuga eaque, eius earum esse. Deserunt animi blanditiis
-                inventore?</p>
-            <p>Negocios</p>
-            <p>Startups</p>
-            <h4>Ada Lovelace</h4>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero tempore ea rem, quo laborum fugit fugiat
-                blanditiis non nesciunt animi eius? Dolor numquam inventore sequi, deserunt aspernatur ipsa ducimus
-                possimus?</p>
+        <div class="col card">
+            <img class="card-img-top" width="300px" src="img\ada.jpeg" alt="Foto de Ada Lovelace"><br>
+            <span class="badge bg-secondary">Negocios</span> <span class="badge bg-danger">Startups</span>
+            <div class="card-body">
+                <h5 class="card-title">Ada Lovelace</h5>
+                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero tempore ea rem, quo
+                    laborum fugit fugiat
+                    blanditiis non nesciunt animi eius? Dolor numquam inventore sequi, deserunt aspernatur ipsa ducimus
+                    possimus?</p>
+            </div>
         </div>
-        <div><img src="img\honolulu.jpg" alt="Foto de playa de Honolulu"></div>
-        <div>
-            <h2>Bs As - Octubre</h2>
-            <p>Buenos Aires es la provincia y localidad más grande del estado de Argentina en Estados Unidos. Honolulu
+    </div>
+    <div class="row container-fluid clearfix">
+        <div class="col"><img width="100%" class="float-start" src="img\honolulu.jpg" alt="Foto de playa de Honolulu"></div>
+        <div class="col bg-dark float-end">
+            <h2 class="text-light">Bs As - Octubre</h2>
+            <p class="text-light">Buenos Aires es la provincia y localidad más grande del estado de Argentina en Estados
+                Unidos. Honolulu
                 es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre Honolulu se refiere
                 al área urbana en la costa suroeste de la isla Oahu, la ciudad y el condado de Honolulu han formadouna
                 ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600 km2 de superficie).</p>
-            <div>Conocé más</div>
-        </div>
-        <div>
-            <h6>CONCIÉRTETE EN UN</h6>
-            <h2>ORADOR</h2>
-            <p>Anótate como orador para dar una <span>charla ignite</span>. Cuéntanos de que quieres hablar!</p>
-            <form action="mailtobsas@gmail.com.ar">
-                <input type="text" name="Nombre" placeholder="Nombre"><input type="text" name="Apellido"
-                    placeholder="Apellido"><br>
-                <textarea name="tema" id="tema" cols="30" rows="10"
-                    placeholder="Sobre qué quieres hablar?"></textarea><br>
-                <p>Recuerda incluir un título para tu charla.</p>
-                <input type="submit" value="Enviar">
-            </form>
-        </div>
-        <div class="row">
-            <div>Preguntas frecuentes</div>
-            <div>Contáctanos</div>
-            <div>Prensa</div>
-            <div>Conferencias</div>
-            <div>Términos y condiciones</div>
-            <div>Privacidad</div>
-            <div>Estudiantes</div>
+            <div class="text-light">Conocé más</div>
         </div>
     </div>
+    <div class="row container-sm text-center">
+        <h6 id="form">CONVIÉRTETE EN UN</h6>
+        <h2>ORADOR</h2>
+        <p>Anótate como orador para dar una <span>charla ignite</span>. Cuéntanos de que quieres hablar!</p>
+        <form class="d-grisdan" action="mailtobsas@gmail.com.ar">
+            <input type="text" name="Nombre" placeholder="Nombre"><input type="text" name="Apellido"
+                placeholder="Apellido"><br>
+            <textarea name="tema" id="tema" cols="30" rows="10" placeholder="Sobre qué quieres hablar?"></textarea><br>
+            <p class="small">Recuerda incluir un título para tu charla.</p>
+            <input type="submit" value="Enviar" class="btn btn-success btn-block">
+        </form>
+    </div>
+    <div class="row container-fluid text-center text-light bg-primary">
+        <div class="col">Preguntas frecuentes</div>
+        <div class="col">Contáctanos</div>
+        <div class="col">Prensa</div>
+        <div class="col">Conferencias</div>
+        <div class="col">Términos y condiciones</div>
+        <div class="col">Privacidad</div>
+        <div class="col">Estudiantes</div>
+    </div>
 </body>
-
 </html>
