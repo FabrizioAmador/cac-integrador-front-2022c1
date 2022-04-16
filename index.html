@@ -11,15 +11,15 @@
 
 <body>
     <div class="row container-fluid bg-dark">
-        <div class="col"><img width="70%" src="img\codoacodo.png" alt="Ícono de Codo a Codo"></div>
-        <div class="col text-light">
+        <div class="col align-middle pt-2"><img width="70%" src="img\codoacodo.png" alt="Ícono de Codo a Codo"></div>
+        <div class="col align-middle pt-2 text-light">
             <h4>Conf Bs As</h4>
         </div>
-        <a class="col text-light text-center text-decoration-none">La conferencia</a>
-        <a class="col text-secondary text-center text-decoration-none">Los oradores</a>
-        <a class="col text-secondary text-center text-decoration-none">El lugar y fecha</a>
-        <a class="col text-secondary text-centera text-decoration-none">Se un orador</a>
-        <a class="col text-success text-center text-decoration-none">Comprar tickets</a>
+        <a class="col align-middle pt-2 text-light text-center text-decoration-none">La conferencia</a>
+        <a class="col align-middle pt-2 text-secondary text-center text-decoration-none">Los oradores</a>
+        <a class="col align-middle pt-2 text-secondary text-center text-decoration-none">El lugar y fecha</a>
+        <a class="col align-middle pt-2 text-secondary text-centera text-decoration-none">Se un orador</a>
+        <a class="col align-middle pt-2 text-success text-center text-decoration-none">Comprar tickets</a>
     </div>
     <div class="col container-fluid"><img src="img\ba1.jpg" alt="Imagen de Bs As">
         <h2 class="text-light">Conf Bs As</h2>
@@ -30,10 +30,10 @@
         <a href="#form" class="text-light">Quiero ser un orador</a>
         <button class="btn btn-success">Comprar tickets</button>
     </div>
-    <div class="row container-sm">
+    <div class="row container-sm text-center">
         <h6>CONOCE A LOS</h6>
         <h2>ORADORES</h2>
-        <div class="col card">
+        <div class="col-sm card">
             <img class="card-img-top" width="300px" src="img\steve.jpg" alt="Foto de Steves Jobs"><br>
             <span class="badge bg-warning text-body">JavaScript</span> <span class="badge bg-primary">React</span>
             <div class="card-body">
@@ -47,7 +47,7 @@
                     expedita alias velit eveniet.</p>
             </div>
         </div>
-        <div class="col card">
+        <div class="col-sm card">
             <img class="card-img-top" width="300px" src="img\bill.jpg" alt="Foto de Bill Gates"><br>
             <span class="badge bg-warning text-body">JavaScript</span> <span class="badge bg-primary">React</span>
             <div class="card-body">
@@ -60,7 +60,7 @@
                     inventore?</p>
             </div>
         </div>
-        <div class="col card">
+        <div class="col-sm card">
             <img class="card-img-top" width="300px" src="img\ada.jpeg" alt="Foto de Ada Lovelace"><br>
             <span class="badge bg-secondary">Negocios</span> <span class="badge bg-danger">Startups</span>
             <div class="card-body">
@@ -73,8 +73,9 @@
         </div>
     </div>
     <div class="row container-fluid clearfix">
-        <div class="col"><img width="100%" class="float-start" src="img\honolulu.jpg" alt="Foto de playa de Honolulu"></div>
-        <div class="col bg-dark float-end">
+        <div class="col-sm m-0"><img width="100%" class="float-start" src="img\honolulu.jpg"
+                alt="Foto de playa de Honolulu"></div>
+        <div class="col-sm m-0 bg-dark float-end">
             <h2 class="text-light">Bs As - Octubre</h2>
             <p class="text-light">Buenos Aires es la provincia y localidad más grande del estado de Argentina en Estados
                 Unidos. Honolulu
@@ -89,21 +90,25 @@
         <h2>ORADOR</h2>
         <p>Anótate como orador para dar una <span>charla ignite</span>. Cuéntanos de que quieres hablar!</p>
         <form class="d-grisdan" action="mailtobsas@gmail.com.ar">
-            <input type="text" name="Nombre" placeholder="Nombre"><input type="text" name="Apellido"
+            <input type="text" name="Nombre" placeholder="Nombre"> <input type="text" name="Apellido"
                 placeholder="Apellido"><br>
-            <textarea name="tema" id="tema" cols="30" rows="10" placeholder="Sobre qué quieres hablar?"></textarea><br>
+            <textarea class="mt-1" name="tema" id="tema" cols="50" rows="10"
+                placeholder="Sobre qué quieres hablar?"></textarea><br>
             <p class="small">Recuerda incluir un título para tu charla.</p>
             <input type="submit" value="Enviar" class="btn btn-success btn-block">
         </form>
     </div>
-    <div class="row container-fluid text-center text-light bg-primary">
-        <div class="col">Preguntas frecuentes</div>
-        <div class="col">Contáctanos</div>
-        <div class="col">Prensa</div>
-        <div class="col">Conferencias</div>
-        <div class="col">Términos y condiciones</div>
-        <div class="col">Privacidad</div>
-        <div class="col">Estudiantes</div>
+    <div class="container-fluid">
+        <div class="row text-center text-light bg-primary">
+            <div class="col p-3 pt-2eguntas frecuentes</div>
+            <div class="col p-3 pt-2ntáctanos</div>
+            <div class="col p-3 pt-2ensa</div>
+            <div class="col p-3 pt-2nferencias</div>
+            <div class="col p-3 pt-2rminos y condiciones</div>
+            <div class="col p-3 pt-2ivacidad</div>
+            <div class="col p-3 pt-2tudiantes</div>
+        </div>
     </div>
 </body>
+
 </html>
