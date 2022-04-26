@@ -1,17 +1,20 @@
-#texto-en-imagen{
-  background-color: rgba(0, 0, 0, 0.5);
-  text-align: right;
-  padding: 1rem;
+.fondoimagen {
+  background-image: url(../img/ba1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+  /* Flexbox */
+
 }
 
-.container1 {
-  position: relative;
-  text-align: center;
-  color: white;
+.opacity {
+  background:rgba(0,0,0,0.6);
+  display: flex;
+  align-items: center;
 }
 
-.bottom-right {
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
+.charlaignite {
+  text-decoration: dotted;
 }
