@@ -135,27 +135,33 @@
             </div>
         </div>
         <!--Formulario-->
-        <div class="container-fluid">
-            <div class="row text-center">
+        <div class="container">
+            <div class="row justify-content-center">
                 <h6 class="col-12" id="form">CONVIÉRTETE EN UN</h6>
                 <h2>ORADOR</h2>
                 <p>Anótate como orador para dar una <span class="charlaignite">charla ignite</span>. Cuéntanos de que
                     quieres hablar!</p>
-                </div>
-                <form class="d-grisdan" action="mailtobsas@gmail.com.ar">
-                    <div class="row container-fluid">
-                        <div class="col"><input class="form-control" type="text" name="Nombre" placeholder="Nombre">
+            </div>
+        </div>
+            <div class="container">
+                <form action="mailtobsas@gmail.com.ar">
+                    <div class="row">
+                        <div class="col-sm-4 align-self-center"><input class="form-control" type="text" name="Nombre"
+                                placeholder="Nombre">
                         </div>
-                        <div class="col">
+                        <div class="col-sm-4 align-self-center">
                             <input class="form-control" type="text" name="Apellido" placeholder="Apellido"></div>
                     </div>
-                    <textarea class="row form-control" class="mt-1" name="tema" id="tema" cols="30" rows="10"
-                        placeholder="Sobre qué quieres hablar?"></textarea><br>
-                    <p class="small">Recuerda incluir un título para tu charla.</p>
-                    <input type="submit" value="Enviar" class="btn btn-success btn-block">
+                    <div class="row mt-1">
+                        <div class="col-8">
+                            <textarea class="form-control" name="tema" id="tema" cols="30" rows="10" width="300px"
+                                placeholder="Sobre qué quieres hablar?"></textarea>
+                            <p class="small">Recuerda incluir un título para tu charla.</p>
+                            <input type="submit" value="Enviar" class="btn btn-success btn-block">
+                        </div>
+                    </div>
                 </form>
-            
-        </div>
+            </div>
         <!--Navbar de abajo-->
         <div class="container-fluid">
             <nav class="navbar navbar-expand-sm bg-primary">
