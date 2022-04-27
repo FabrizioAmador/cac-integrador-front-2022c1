@@ -115,14 +115,14 @@
             </div>
         </div>
         <!--Imágen con texto al costado-->
-        <div class="container-fluid">
-            <div class="row clearfix">
-                <div class="col-sm m-0">
-                    <img width="100%" class="float-start" src="img\honolulu.jpg" alt="Foto de playa de Honolulu">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 m-0">
+                    <img width="100%" class="img-fluid" src="img\honolulu.jpg" alt="Foto de playa de Honolulu">
                 </div>
-                <div class="col-sm m-0 bg-dark float-end">
-                    <h2 class="text-light">Bs As - Octubre</h2>
-                    <p class="text-light">Buenos Aires es la provincia y localidad más grande del estado de Argentina en
+                <div class="col-md-6 bg-dark text-light">
+                    <h2>Bs As - Octubre</h2>
+                    <p>Buenos Aires es la provincia y localidad más grande del estado de Argentina en
                         Estados
                         Unidos. Honolulu
                         es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre Honolulu se
@@ -130,34 +130,36 @@
                         al área urbana en la costa suroeste de la isla Oahu, la ciudad y el condado de Honolulu han
                         formadouna
                         ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600 km2 de superficie).</p>
-                    <div class="text-light">Conocé más</div>
+                    <a href="#" class="text-light text-decoration-none">Conocé más</a>
                 </div>
             </div>
         </div>
         <!--Formulario-->
         <div class="container">
-            <div class="row justify-content-center">
+            <div class="row mx-auto text-center">
                 <h6 class="col-12" id="form">CONVIÉRTETE EN UN</h6>
                 <h2>ORADOR</h2>
-                <p>Anótate como orador para dar una <span class="charlaignite">charla ignite</span>. Cuéntanos de que
-                    quieres hablar!</p>
+                <p>Anótate como orador para dar una <span class="charlaignite">charla ignite</span>. Cuéntanos de que quieres hablar!</p>
             </div>
         </div>
             <div class="container">
                 <form action="mailtobsas@gmail.com.ar">
-                    <div class="row">
-                        <div class="col-sm-4 align-self-center"><input class="form-control" type="text" name="Nombre"
-                                placeholder="Nombre">
+                    <div class="row justify-content-center">
+                        <div class="col-sm-4">
+                            <input class="form-control" type="text" name="Nombre" placeholder="Nombre">
                         </div>
-                        <div class="col-sm-4 align-self-center">
+                        <div class="col-sm-4">
                             <input class="form-control" type="text" name="Apellido" placeholder="Apellido"></div>
                     </div>
-                    <div class="row mt-1">
+                    <div class="row mt-1  justify-content-center">
                         <div class="col-8">
                             <textarea class="form-control" name="tema" id="tema" cols="30" rows="10" width="300px"
                                 placeholder="Sobre qué quieres hablar?"></textarea>
-                            <p class="small">Recuerda incluir un título para tu charla.</p>
-                            <input type="submit" value="Enviar" class="btn btn-success btn-block">
+                            <p class="small text-">Recuerda incluir un título para tu charla.</p>
+                            <div class="row justify-content-center d-grid">
+                                <div class="col-sm-4">
+                                    <input type="submit" value="Enviar" class="btn btn-success btn-block"></div>
+                            </div>
                         </div>
                     </div>
                 </form>
