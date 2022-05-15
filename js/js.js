@@ -6,7 +6,7 @@ function calcularPrecio(evt) {
     let trainee = 0.5;
     let junior = 0.85;
     let entrada = 200;
-    let total
+    let total;
     switch (descuento) {
         case (descuento == "estudiante"):
             total = entrada * cant * estudiante;
@@ -20,9 +20,10 @@ function calcularPrecio(evt) {
         default:
             total = entrada * cant;
     }
-    evt.target.innerHTML = "Total a Pagar: $ " + total
-    console.log(evt.target)
-    totalAPagar = "Total a Pagar: $ " + total
+    return total
+    evt.target.innerHTML = "Total a Pagar: $ " + total;
+    totalAPagar = "Total a Pagar: $ " + total;
+    console.log(total);
 }
 
 document.getElementById("resumen").onclick = calcularPrecio;
