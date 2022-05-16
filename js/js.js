@@ -20,8 +20,6 @@ function calcularPrecio(evt) {
         default:
             total = entrada * cant;
     }
-    return total
-    evt.target.innerHTML = "Total a Pagar: $ " + total;
     totalAPagar = "Total a Pagar: $ " + total;
     console.log(total);
 }
