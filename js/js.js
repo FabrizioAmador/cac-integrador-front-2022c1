@@ -1,26 +1,26 @@
 function calcularPrecio(evt) {
     let cant = parseInt(document.getElementById("cantidad").value);
     let descuento = document.getElementById("categoria").value;
-    let totalAPagar = document.getElementById("totalAPagar").innerHTML;
-    let estudiante = 0.2;
-    let trainee = 0.5;
-    let junior = 0.85;
-    let entrada = 200;
+    let totalAPagar = document.getElementByI("totalAPagar");
+    let estudiante = parseFloat(0.2);
+    let trainee = parseFloat(0.5);
+    let junior = parseFloat(0.85);
+    let entrada = parseInt(200);
     let total;
     switch (descuento) {
-        case (descuento == "estudiante"):
+        case "estudiante":
             total = entrada * cant * estudiante;
             break;
-        case (descuento == "trainee"):
+        case "trainee":
             total = entrada * cant * trainee;
             break;
-        case (descuento == "junior"):
+        case "junior":
             total = entrada * cant * junior;
             break;
         default:
             total = entrada * cant;
     }
-    totalAPagar = "Total a Pagar: $ " + total;
+    totalAPagar.innerHTML = "Total a Pagar: $ " + total;
     console.log(total);
 }
 
