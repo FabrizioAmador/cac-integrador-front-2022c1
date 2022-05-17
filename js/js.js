@@ -1,7 +1,7 @@
 function calcularPrecio(evt) {
     let cant = parseInt(document.getElementById("cantidad").value);
     let descuento = document.getElementById("categoria").value;
-    let totalAPagar = document.getElementByI("totalAPagar");
+    let totalAPagar = document.getElementById("totalAPagar");
     let estudiante = parseFloat(0.2);
     let trainee = parseFloat(0.5);
     let junior = parseFloat(0.85);
